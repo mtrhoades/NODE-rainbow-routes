@@ -1,7 +1,6 @@
 {
-  "name": "node-rainbow-routes",
+  "name": "rainbow-routes",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +11,14 @@
   "dependencies": {
     "dotenv": "^16.0.0",
     "express": "^4.17.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtrhoades/NODE-rainbow-routes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mtrhoades/NODE-rainbow-routes/issues"
+  },
+  "homepage": "https://github.com/mtrhoades/NODE-rainbow-routes#readme",
+  "description": ""
 }

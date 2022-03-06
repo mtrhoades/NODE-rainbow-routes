@@ -24,7 +24,7 @@ app.get('/:color', function (req, res) {
             <div style="border: 1px solid black; height: 10vh; background-color: ${myColor};">
                 <h2 style="text-align: center;">NAV BAR</h2>
             </div>
-            <h1 style="color: ${myColor};">${myColor.charAt(0).toUpperCase() + myColor.slice(1)} Page</h1>
+            <h1 style="color: ${myColor};">${myColor.charAt(0).toUpperCase() + myColor.slice(1)} Page YASSSS!!!</h1>
         </body>
     `) // ^ adds uppercasing to first letter of h1.
 });
@@ -41,5 +41,8 @@ app.get('/:color', function (req, res) {
 //     `)
 // });
 
+app.post('/:color', (req, res) => {
+    res.send('Hello world')
+});
 
 app.listen(process.env.PORT);
